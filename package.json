@@ -1,0 +1,29 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "a node js package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeepaliSingh1995/Node.git"
+  },
+  "keywords": [
+    "creating",
+    "node",
+    "package"
+  ],
+  "author": "Deepali Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeepaliSingh1995/Node/issues"
+  },
+  "homepage": "https://github.com/DeepaliSingh1995/Node#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "colors": "^1.4.0"
+  }
+}

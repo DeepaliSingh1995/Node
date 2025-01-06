@@ -8,3 +8,8 @@
 * Node is written in C, C++ and Javascript.
 * Current version : 21.0.0
 
+* **<u>Global and Non-Global modules</u>**
+> * Both of them are Core modules.
+> * The modules that we need to import are non Global modules and the modules that are inbuilt or we do not need to import are Global modules.
+
+* We have to use a function **require()** under which we have to mention which file we need to import withing single inverted commas, and assign this function to a variable to import anything in Node.js
