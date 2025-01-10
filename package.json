@@ -24,6 +24,7 @@
   "homepage": "https://github.com/DeepaliSingh1995/Node#readme",
   "dependencies": {
     "chalk": "^5.4.1",
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "express": "^4.21.2"
   }
 }
