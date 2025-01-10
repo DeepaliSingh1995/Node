@@ -101,5 +101,10 @@ app.get('/help',(req,res)=>{
 res.sendFile(`${publicPath}/help.html`)
 })
 
+// Handling the condition when the user enters invalid url or the url for the page which does not exist
+app.get('*',(req,res)=>{
+res.sendFile(`${publicPath}/404page.html`)
+})
+
 console.log(publicPath);
 app.listen(5200)
